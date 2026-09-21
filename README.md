@@ -9,3 +9,5 @@ IC Design student at UIT | Honors Program
 ## Progress
 
 ### LTspice
+
+- [x] Basic resistic circuit
