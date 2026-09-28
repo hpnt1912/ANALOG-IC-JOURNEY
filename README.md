@@ -18,7 +18,7 @@ IC Design student at UIT | Honors Program
 ## Progress Log
 
 ### [28/09/2026] - Physics of Semiconductors (Drift & Diffusion)
-- **Source:** *Electronics I – Behzad Razavi*[cite: 1]
+- **Source:** *Electronics I – Behzad Razavi*
 - **Key Concepts Mastered:**
   - **Drift Current ($I_{drift}$):** Dòng điện do điện trường tác dụng lên hạt tải điện ($J_{drift} = q \cdot n \cdot \mu \cdot E$).
   - **Diffusion Current ($I_{diff}$):** Dòng điện do chênh lệch nồng độ hạt tải điện ($J_{diff} = q \cdot D \cdot \frac{dn}{dx}$).
