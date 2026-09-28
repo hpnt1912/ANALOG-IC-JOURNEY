@@ -13,7 +13,7 @@ IC Design student at UIT | Honors Program
 - Circuit Analysis
 - LTspice Simulation
 - Analog Electronics Fundamentals
-- [x] **Razavi Electronics I:** Drift & Diffusion Mechanisms
+- Razavi Electronics I
 
 ## Progress Log
 
@@ -23,7 +23,7 @@ IC Design student at UIT | Honors Program
   - **Drift Current ($I_{drift}$):** Dòng điện do điện trường tác dụng lên hạt tải điện ($J_{drift} = q \cdot n \cdot \mu \cdot E$).
   - **Diffusion Current ($I_{diff}$):** Dòng điện do chênh lệch nồng độ hạt tải điện ($J_{diff} = q \cdot D \cdot \frac{dn}{dx}$).
   - **Einstein Relation:** Mối liên hệ giữa hệ số khuếch tán và độ động hạt tải điện ($\frac{D}{\mu} = V_T$).
-  - **PN Junction:** Cơ chế cân bằng động giữa dòng khuếch tán và dòng trôi tạo nên vùng nghèo (Depletion Region).
+  - **Up Next:** 🚀 PN Junction (Lớp chuyển tiếp P-N). (TOMORROW)
 
 ### LTspice
 
