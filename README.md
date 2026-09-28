@@ -13,8 +13,12 @@ IC Design student at UIT | Honors Program
 - Circuit Analysis
 - LTspice Simulation
 - Analog Electronics Fundamentals
+- [x] **Razavi Electronics I:** Drift & Diffusion Mechanisms
 
-## Progress
+## Progress Log
+
+### [28/09/2026] - Physics of Semiconductors (Drift & Diffusion)
+- 
 
 ### LTspice
 
