@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
 Circuit: D:\github_git\repo\ANALOG-IC-JOURNEY\LTspice\lab1\Draft1.net
-Start Time: Wed Sep 30 07:32:45 2026
+Start Time: Sun Oct  4 11:04:23 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -9,7 +9,7 @@ method = trap
 WARNING: Node n003 is floating.
 
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.021 seconds.
+Total elapsed time: 0.027 seconds.
 
 Files loaded:
 D:\github_git\repo\ANALOG-IC-JOURNEY\LTspice\lab1\Draft1.net
