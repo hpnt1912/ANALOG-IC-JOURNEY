@@ -1,0 +1,31 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\github_git\repo\ANALOG-IC-JOURNEY\LTspice\lab1\Draft2.net
+Start Time: Sun Nov  8 22:16:05 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.317 seconds.
+
+Files loaded:
+D:\github_git\repo\ANALOG-IC-JOURNEY\LTspice\lab1\Draft2.net
+
+i_0001: I(JMP1)*1000 =0.916426710319 at 1
+i_1k: I(JMP1)*1000 =0.910530507099 at 1000
+i_1k5: I(JMP1)*1000 =0.908198358957 at 1500
+i_2k: I(JMP1)*1000 =0.90617116075 at 2000
+i_2k5: I(JMP1)*1000 =0.904392742086 at 2500
+i_3k: I(JMP1)*1000 =0.902820029296 at 3000
+i_3k5: I(JMP1)*1000 =0.901419261936 at 3500
+i_4k: I(JMP1)*1000 =0.900163664483 at 4000
+i_5k: I(JMP1)*1000 =0.898006255738 at 5000
