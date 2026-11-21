@@ -1,0 +1,35 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\github_git\repo\ANALOG-IC-JOURNEY\LTspice\lab3\Bai3_mach_2_15.cir
+Start Time: Mon Nov 16 20:40:20 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.282 seconds.
+
+Files loaded:
+D:\github_git\repo\ANALOG-IC-JOURNEY\LTspice\lab3\Bai3_mach_2_15.cir
+
+i_0001: I(VJMP6)*1000 =1.0119836079 at 0.1
+i_500: I(VJMP6)*1000 =0.896263227332 at 500
+i_1k: I(VJMP6)*1000 =0.804275798146 at 1000
+i_1k5: I(VJMP6)*1000 =0.729413004592 at 1500
+i_2k: I(VJMP6)*1000 =0.667300017085 at 2000
+i_2k5: I(VJMP6)*1000 =0.614935357589 at 2500
+i_3k: I(VJMP6)*1000 =0.570191070437 at 3000
+i_3k5: I(VJMP6)*1000 =0.53151656175 at 3500
+i_4k: I(VJMP6)*1000 =0.497755187098 at 4000
+i_4k5: I(VJMP6)*1000 =0.468026613817 at 4500
+i_5k: I(VJMP6)*1000 =0.441648997366 at 5000

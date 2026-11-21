@@ -1,0 +1,35 @@
+* Bai 3 - Mach 2.15 (Ma KIT 14 - chan): Ea=E5=3.3V, Eb=E6=5V, do dong qua JMP6 khi POT3 thay doi, POT4 = 5k
+* Nut: T = dinh (R5, POT4, JMP6) | A = POT4-R6-R7 | B = R5-E6(+)-R8 | 0 = dat (R7, R8, E5-)
+* X = giua E5(+) va POT3 | M = giua POT3 va JMP6 | N = giua R6 va E6(-)
+
+* ---- Nhanh Ea: E5 nt POT3 nt JMP6 (G -> T) ----
+VE5    X  0  3.3
+RPOT3  X  M  {R}
+VJMP6  M  T  0          ; nguon 0V lam ampe ke, + o phia POT3 -> I(VJMP6) > 0
+
+* ---- Phan con lai cua mach (dang cau) ----
+RPOT4  T  A  5k         ; POT4 = f = 5k (doi gia tri tai day neu can)
+R5     T  B  4.7k
+R6     A  N  2k
+VE6    B  N  5          ; Eb = 5V, cuc + o B, cuc - o phia R6
+R7     A  0  4.7k
+R8     B  0  2k
+
+* ---- Tham so va phan tich ----
+.param R=1k
+.step param R list 0.1 500 1k 1.5k 2k 2.5k 3k 3.5k 4k 4.5k 5k
+.op
+
+.meas OP I_0001 FIND I(VJMP6)*1000 AT 0.1
+.meas OP I_500  FIND I(VJMP6)*1000 AT 500
+.meas OP I_1k   FIND I(VJMP6)*1000 AT 1k
+.meas OP I_1k5  FIND I(VJMP6)*1000 AT 1.5k
+.meas OP I_2k   FIND I(VJMP6)*1000 AT 2k
+.meas OP I_2k5  FIND I(VJMP6)*1000 AT 2.5k
+.meas OP I_3k   FIND I(VJMP6)*1000 AT 3k
+.meas OP I_3k5  FIND I(VJMP6)*1000 AT 3.5k
+.meas OP I_4k   FIND I(VJMP6)*1000 AT 4k
+.meas OP I_4k5  FIND I(VJMP6)*1000 AT 4.5k
+.meas OP I_5k   FIND I(VJMP6)*1000 AT 5k
+
+.end
